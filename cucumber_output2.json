@@ -1,0 +1,551 @@
+[
+  {
+    "elements": [
+      {
+        "id": "search-in-google;search-selenium-and-validate-if-returns-more-than-\"25000000\"-results",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search Selenium and validate if returns more than \"25000000\" results",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"http://www.google.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 2027996660
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I fill search bar with \"Selenium\"",
+            "result": {
+              "status": "passed",
+              "duration": 86428291
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click on \"Google Search\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1101139219
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I see page with more than \"25000000\" results",
+            "result": {
+              "status": "passed",
+              "duration": 68938250
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 231010
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "search-in-google;search-\"españa\"-and-validate-if-return-more-than-\"900000000\"-results",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "search \"España\" and validate if return more than \"900000000\" results",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"http://www.google.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 762703684
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I fill search bar with \"España\"",
+            "result": {
+              "status": "passed",
+              "duration": 63102292
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"Google Search\" button",
+            "result": {
+              "status": "passed",
+              "duration": 892817381
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see page with more than \"900000000\" results",
+            "result": {
+              "status": "failed",
+              "duration": 98786417,
+              "error_message": "ExpectationFailed: Expected '2.720.000.000' to be greater than '900000000'.\n    at Expectation.addExpectationResult (/usr/local/lib/node_modules/chimp/node_modules/xolvio-jasmine-expect/index.js:44:13)\n    at Expectation.toBeGreaterThan (/usr/local/lib/node_modules/chimp/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2369:12)\n    at World.<anonymous> (/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:27:24)\n    at /usr/local/lib/node_modules/chimp/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 94853
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "search-in-google;search-\"madrid\"-and-validate-if-return-less-than-\"1000000\"-results",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "search \"Madrid\" and validate if return less than \"1000000\" results",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"http://www.google.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 536969565
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I fill search bar with \"Madrid\"",
+            "result": {
+              "status": "passed",
+              "duration": 60266496
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"Google Search\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1578073053
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I see page with less than \"1000000\" results",
+            "result": {
+              "status": "passed",
+              "duration": 99886418
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 93527
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "search-in-google;search-\"selenium\"-in-\"google.es\"-and-validate-if-results-are-less-than-10",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "search \"Selenium\" in \"google.es\" and validate if results are less than 10",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"http://www.google.es\"",
+            "result": {
+              "status": "passed",
+              "duration": 352947460
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I fill search bar with \"Selenium\"",
+            "result": {
+              "status": "passed",
+              "duration": 108934007
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"Google Search\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1027509768
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I see page with less than \"10\" results",
+            "result": {
+              "status": "passed",
+              "duration": 57121268
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 80563
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-in-google",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Search in google",
+    "tags": [
+      {
+        "name": "@watch",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/Mila/Documents/TestValant/features/googlesearch.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "search-my-profile;search-your-name-in-google-and-open-your-linkedin-profile-and-validate-your-name-and-current-job",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search your name in google and open your linkedin profile and validate your name and current job",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"http://www.google.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 510918917
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I fill search bar with \"Milagros Oliva Mangas\"",
+            "result": {
+              "status": "passed",
+              "duration": 89619456
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"Google Search\" button",
+            "result": {
+              "status": "passed",
+              "duration": 785546473
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"https://es.linkedin.com/in/milagros-oliva-mangas-2201533a\" link",
+            "result": {
+              "status": "passed",
+              "duration": 483103038
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/myProfileSearch.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"https://es.linkedin.com/in/milagros-oliva-mangas-2201533a\"",
+            "result": {
+              "status": "passed",
+              "duration": 123878115
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate in my profile \"Milagros Oliva Mangas\" text",
+            "result": {
+              "status": "failed",
+              "duration": 5009985226,
+              "error_message": "Error: element (\"#name\") still not existing after 5000ms\n    at World.<anonymous> (features/step_definitions/myProfileSearch.js:11:21)\n    at /usr/local/lib/node_modules/chimp/node_modules/meteor-promise/fiber_pool.js:43:40\n    at new WaitUntilTimeoutError (/usr/local/lib/node_modules/chimp/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:150:12)\n    at /usr/local/lib/node_modules/chimp/node_modules/webdriverio/build/lib/commands/waitUntil.js:29:19\n    at /usr/local/lib/node_modules/chimp/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/myProfileSearch.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I validate in my profile \"QA tester at UST Global\" text",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/myProfileSearch.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 63799
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-my-profile",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Search My Profile",
+    "tags": [
+      {
+        "name": "@watch",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/Mila/Documents/TestValant/features/myProfileSearch.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "search-in-google-using-im-feeling-lucky;search-\"selenium\"-in-\"google.es\"-using-\"i'm-feeling-lucky\"-and-validate-if-the-page-opened-is-https://www.seleniumhq.org/",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "search \"Selenium\" in \"google.es\" using \"i'm feeling lucky\" and validate if the page opened is https://www.seleniumhq.org/",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"http://www.google.com/ncr\"",
+            "result": {
+              "status": "passed",
+              "duration": 814949284
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I fill search bar with \"Selenium\"",
+            "result": {
+              "status": "passed",
+              "duration": 60420915
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click on \"Im feeling lucky\" button",
+            "result": {
+              "status": "passed",
+              "duration": 2516117106
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/googlesearch.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page opened is \"https://www.seleniumhq.org/\"",
+            "result": {
+              "status": "passed",
+              "duration": 15683033
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/Mila/Documents/TestValant/features/step_definitions/seleniumSearch.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 431572
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-in-google-using-im-feeling-lucky",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search in google using Im feeling lucky",
+    "tags": [],
+    "uri": "/Users/Mila/Documents/TestValant/features/seleniumSearch.feature"
+  }
+]

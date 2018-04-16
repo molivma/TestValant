@@ -1,0 +1,24 @@
+{
+  "name": "AutomateTesting",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint --config .eslintrc.js **/*.js",
+    "Testing": "run-s -cl timer clean removeDB parallelchimp taskkill timer",
+    "startWatch": "chimp chimp-config.js --watch",
+    "startFeature": "chimp chimp-config.js features/searchInGoogle.feature"
+  },
+  "dependencies": {
+    "fibers": "^2.0.2"
+  },
+  "devDependencies": {
+    "chimp": "^0.51.1",
+    "cucumber": "^4.2.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
